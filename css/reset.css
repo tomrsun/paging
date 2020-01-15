@@ -1,0 +1,86 @@
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+p,
+blockquote,
+th,
+td {
+	margin: 0;
+	padding: 0;
+}
+html, body{
+	width: 100%;
+	height: 100%;
+}
+body {
+	font-family: MicrosoftYaHei ,"微软雅黑";
+	/*font-family: arial, "宋体";*/
+	/*background: #ffffff;*/
+	font-size: 14px;
+}
+/*去掉input标签外部的高亮显示的边框*/
+input{
+	border: none;
+	outline: none;
+}
+
+
+ol,
+ul {
+	list-style: none;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var,
+optgroup {
+	font-style: normal;
+}
+
+
+
+fieldset,
+img,
+a img,
+:link img,
+:visited img {
+	border: 0;
+}
+
+a {
+	text-decoration: none;
+	
+}
+
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
